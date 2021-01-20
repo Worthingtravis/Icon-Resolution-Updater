@@ -5,6 +5,12 @@ from PIL import Image
 # specific directory.
 
 
+# python main.py icon.png icons_new icons_old/*.png
+
+# icon.png = the image that will replace all other
+# icons_new = the new folder location
+# directory path and images to inherit from
+
 if __name__ == '__main__':
   input_img = sys.argv[1]
   export_dir = sys.argv[2]
