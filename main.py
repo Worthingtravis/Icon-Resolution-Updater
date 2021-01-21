@@ -1,8 +1,8 @@
 import sys
 from PIL import Image
 
-# a provided image will inherit the name and resolution of every image of a given directory, and saved into a
-# specific directory.
+# a provided image will inherit the name and resolution of every image of a given directory,
+# and then be saved into another specified directory.
 
 
 # python main.py icon.png icons_new icons_old/*.png
